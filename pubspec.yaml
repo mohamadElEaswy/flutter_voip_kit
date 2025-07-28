@@ -1,16 +1,16 @@
 name: flutter_voip_kit
 description: Use iOS CallKit and Android's Telecom library to create and receive calls with native functionality. e.g. Calls pop up on user's lock screen.
-version: 0.0.6
+version: 0.0.7
 homepage: https://bradenbagby.com/dart/fluttervoipkit
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.20.0"
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  path_provider: ^2.0.10
+  path_provider: ^2.1.2
 
 dev_dependencies:
   flutter_test:
