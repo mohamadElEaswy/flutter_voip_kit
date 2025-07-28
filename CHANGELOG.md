@@ -27,11 +27,12 @@
   * Updated Dart SDK constraint to >=3.0.0 <4.0.0
   * Updated Flutter constraint to >=3.10.0
   * Updated path_provider dependency to ^2.1.2
-  * Updated Kotlin version to 1.9.22
-  * Updated Android Gradle Plugin to 8.2.2
-  * Updated Gradle wrapper to 8.5
-  * Updated compileSdkVersion and targetSdkVersion to 34
+  * Updated Kotlin version to 1.7.10
+  * Updated Android Gradle Plugin to 7.3.0
+  * Updated Gradle wrapper to 7.5
+  * Updated compileSdkVersion and targetSdkVersion to 33
   * Replaced deprecated jcenter() with mavenCentral()
   * Added proper namespace declarations for Android
   * Added Java 8 compatibility settings
   * Updated example app dependencies (uuid to ^4.3.3, cupertino_icons to ^1.0.8)
+  * **Note:** Java 21 compatibility issue identified - may need to use Java 17 or update Gradle version for full compatibility

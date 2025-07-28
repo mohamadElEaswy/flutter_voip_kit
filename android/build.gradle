@@ -2,20 +2,16 @@ group 'com.example.flutter_voip_kit'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.9.22'
+    ext.kotlin_version = '1.7.10'
     repositories {
         google()
         mavenCentral()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.2.2'
+        classpath 'com.android.tools.build:gradle:7.3.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
-}
-
-plugins {
-    id 'dev.flutter.flutter-plugin-loader' version '1.0.0'
 }
 
 rootProject.allprojects {
@@ -25,14 +21,11 @@ rootProject.allprojects {
     }
 }
 
-plugins {
-    id 'com.android.library'
-    id 'kotlin-android'
-    id 'dev.flutter.flutter-gradle-plugin'
-}
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 34
+    compileSdkVersion 33
     namespace 'com.example.flutter_voip_kit'
 
     sourceSets {
@@ -40,7 +33,7 @@ android {
     }
     defaultConfig {
         minSdkVersion 23
-        targetSdkVersion 34
+        targetSdkVersion 33
     }
     
     compileOptions {
